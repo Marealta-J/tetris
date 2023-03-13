@@ -1,0 +1,78 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #141414;
+}
+.main {
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 700px;
+    border: 1px solid #e2e2e2;
+}
+
+.tetris {
+    width: 500px;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    background-color: #292929;
+}
+
+.excel {
+    width: 50px;
+    height: 50px;
+    border: 0.1em solid #e2e2e2;
+}
+
+.figure, .set {
+    background-color: #276ef1;
+}
+input {
+    display: block;
+    margin: 30px auto;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.controls {
+    color: #ffffff;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+.modal {
+    position: fixed;
+    text-transform: uppercase;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.button {
+    border: 2px solid #1e488c;
+    width: 300px;
+    text-align: ce;
+}
