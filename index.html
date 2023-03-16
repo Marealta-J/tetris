@@ -5,20 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
-  <title>Document</title>
+  <title>Tetris</title>
 </head>
 <body>
-  <div class="main">
-
+  <div class="dropdown">
+    <h1>Тетрис</h1>
+    <p onclick="funcDropDown()" class="dropbtn">Управление</p>
+    <div id="myDropdown" class="dropdown-content">
+      <p>Нажми → чтобы переместить фигуру вправо</p>
+      <p>Нажми ← чтобы переместить фигуру влево</p>
+      <p>Нажми ↓ чтобы ускорить фигуру</p>
+      <p>Нажми ↑ чтобы перевернуть фигуру</p>
+    </div>
   </div>
+  <div class="main"></div>
   <input type="text" readonly>
-  <div class="controls">
-    <h2>Управление</h2>
-    <p>Нажми → чтобы переместить фигуру вправо</p>
-    <p>Нажми ← чтобы переместить фигуру влево</p>
-    <p>Нажми ↓ чтобы ускорить фигуру</p>
-    <p>Нажми ↑ чтобы перевернуть фигуру</p>
-  </div>
+
   <script src="../JS/script.js"></script>
 
 </body>

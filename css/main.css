@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-
+h1 {
+    font-size: 36px;
+}
 body {
     background-color: #141414;
 }
@@ -40,6 +42,7 @@ body {
     background-color: #276ef1;
 }
 input {
+    border: 1px solid #fff;
     display: block;
     margin: 30px auto;
     font-size: 30px;
@@ -49,7 +52,7 @@ input {
 .controls {
     color: #ffffff;
     padding: 20px;
-    position: absolute;
+    position: ;
     top: 200px;
     right: 200px;
 }
@@ -71,8 +74,35 @@ input {
     border-radius: 20px;
 }
 
-.button {
-    border: 2px solid #1e488c;
-    width: 300px;
-    text-align: ce;
+.dropbtn {
+    user-select: none;
+    color: white;
+    font-size: 26px;
+    margin-top: 50px;
+    position: absolute;
 }
+
+.dropdown {
+    user-select: none;
+    color: white;
+    padding: 20px 0 0 15px;
+}
+
+.dropdown-content {
+    line-height: 1.2;
+    display: none;
+    position: absolute;
+    background-color: rgba(229, 229, 229, 0.8);
+    min-width: 400px;
+    padding: 10px;
+    margin: 120px 0 0 15px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 17px;
+}
+
+.show {
+    display:block;
+}
+  
